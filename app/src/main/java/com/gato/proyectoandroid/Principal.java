@@ -18,7 +18,7 @@ public class Principal extends AppCompatActivity {
         TimerTask carga = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(Principal.this, Home.class);
+                Intent intent = new Intent(Principal.this, Dashboard.class);
                 startActivity(intent);
                 finish();
             }

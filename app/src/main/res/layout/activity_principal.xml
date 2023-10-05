@@ -13,12 +13,12 @@
 
     <ProgressBar
         android:id="@+id/pbCarga"
-        style="?android:attr/progressBarStyleHorizontal"
+        style="?android:attr/progressBarStyle"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="115dp"
-        android:layout_marginLeft="55dp"/>
+        android:layout_marginLeft="55dp" />
 
 
 </RelativeLayout>
